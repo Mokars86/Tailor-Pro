@@ -1,0 +1,17 @@
+{
+  "short_name": "Tailor Pro",
+  "name": "Tailor Pro UI/UX Design System",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F9F6F0",
+  "theme_color": "#111111",
+  "display": "standalone",
+  "orientation": "portrait"
+}
