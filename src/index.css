@@ -970,3 +970,46 @@ h3 {
 .auth-link:hover {
   color: var(--text-color);
 }
+
+@media (max-width: 767px) {
+  body {
+    background-color: var(--bg-color) !important;
+    display: block !important;
+    overflow: auto !important;
+  }
+  
+  .app-host-container {
+    padding: 0 !important;
+    gap: 0 !important;
+    height: 100vh !important;
+    width: 100vw !important;
+  }
+  
+  .view-mode-header {
+    display: none !important;
+  }
+  
+  .device-container {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 100vh !important;
+    border-radius: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  
+  .device-screen {
+    border-radius: 0 !important;
+    border: none !important;
+    height: 100vh !important;
+  }
+  
+  .status-bar {
+    display: none !important;
+  }
+  
+  .device-screen .floating-action-button {
+    bottom: 90px !important;
+  }
+}

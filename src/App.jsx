@@ -151,6 +151,13 @@ export default function App() {
     }
   }, [authStatus]);
 
+  // Set viewMode to mobile on mount if on physical device or small screen
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setViewMode('mobile');
+    }
+  }, []);
+
   // Sync clients when authenticated
   useEffect(() => {
     if (authStatus === 'authenticated') {
